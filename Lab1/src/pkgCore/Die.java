@@ -5,7 +5,7 @@ public class Die {
 	private int DieValue;
 
 	public Die() {
-		// TODO: Determine DieVaue.. a random number between 1 and 6
+		Math.random();
 	}
 
 	public int getDieValue() {
